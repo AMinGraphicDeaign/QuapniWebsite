@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="圖層_1" data-name="圖層 1" viewBox="0 0 204.15 48.64">
+    <defs>
+        <style>
+            .cls-1{fill:#b28247;}.cls-2{fill:#f7323f;}
+        </style>
+    </defs>
+    <title>
+        logo_web-02
+    </title>
+    <path d="M156.15,131.46v6.47H129.35a6.13,6.13,0,0,1-6.23-6V118.68a6.13,6.13,0,0,1,6.23-6h26.79v6H131.22v12.85h24.93Z" class="cls-1" transform="translate(-123.13 -104.61)"/>
+    <path d="M169.79,112.66h-6.68v18.78a6.12,6.12,0,0,0,6.22,6h20a6.12,6.12,0,0,0,6.23-6V112.66h-6.15v17H169.79v-17Z" class="cls-1" transform="translate(-123.13 -104.61)"/>
+    <path d="M304.95,137.46h6.69V118.68a6.13,6.13,0,0,0-6.22-6h-20a6.13,6.13,0,0,0-6.23,6v18.79h6.15v-17h19.64v17Z" class="cls-1" transform="translate(-123.13 -104.61)"/>
+    <rect width="6.69" height="21.79" x="26.33" y="26.85" class="cls-1"/>
+    <rect width="6.69" height="24.81" x="156.03" y="8.04" class="cls-1"/>
+    <rect width="6.68" height="24.81" x="197.47" y="8.04" class="cls-1"/>
+    <rect width="6.68" height="6.21" x="197.47" class="cls-2"/>
+    <path d="M240.55,131.46v6.47h26.79a6.13,6.13,0,0,0,6.23-6V118.68a6.13,6.13,0,0,0-6.23-6H240.55v6h24.92v12.85H240.55Z" class="cls-1" transform="translate(-123.13 -104.61)"/>
+    <rect width="6.68" height="21.79" x="117.43" y="26.85" class="cls-1"/>
+    <path d="M227.66,112.66H203v6.47h22.81v3.17H208a6.13,6.13,0,0,0-6.22,6v3.59a6.13,6.13,0,0,0,6.22,6h25.86V118.68A6.13,6.13,0,0,0,227.66,112.66Zm-2.08,19.24H211.35a1.94,1.94,0,1,1,0-3.88h14.23Z" class="cls-1" transform="translate(-123.13 -104.61)"/>
+</svg>

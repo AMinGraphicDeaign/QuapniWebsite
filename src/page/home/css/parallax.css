@@ -1,0 +1,16 @@
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+ /*        滾 動 視 差         */
+
+ .parallax [class*="bg"] {
+    height: 30vh;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    z-index: -10;
+    position: relative;
+}
+
+.bg1 {
+    background-image: url(../images/belowSealevel.jpg);
+}
+

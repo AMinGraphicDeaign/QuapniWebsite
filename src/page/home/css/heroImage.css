@@ -1,0 +1,10 @@
+.masthead.segment {
+    background-image: url("../images/sunset.jpg") !important;
+    height: 100% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative !important;
+    min-height: 800px;
+    padding: 0em 0em !important;
+  }

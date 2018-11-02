@@ -1,0 +1,50 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility; }
+
+img {
+    width: 100%; 
+}
+
+img.logo {
+    width: 200px;
+    margin: 3rem 0 1rem; 
+}
+
+
+/* =============================== */
+ /*     卡 片 式 設 計 _ 微 互 動     */
+
+ .zoom-in {
+    display: grid;
+    overflow: hidden;
+}
+
+.zoom-in img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.zoom-in:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.grid-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-shadow: #3F3F3F 0.1em 0.1em 0.2em;
+}
+
+.grid-padding {
+    padding: 5pt !important;
+}
+

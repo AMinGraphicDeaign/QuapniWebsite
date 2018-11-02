@@ -1,0 +1,34 @@
+@charset "UTF-8";
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility; }
+
+
+.ui.vertical.segment {
+  padding: 2rem 0; 
+}
+    
+
+.footer-div a {
+    float: right !important;
+    margin-left: 30px;
+    color: floralwhite;
+}
+
+.separationline
+{
+    width: 1200px;
+    height: 1px;
+    margin: 20px auto;
+    padding: 0;
+    background: #3F3F3F;
+    overflow: hidden;
+}
+
+.icon-size
+{
+    width:50px;
+}
+
+

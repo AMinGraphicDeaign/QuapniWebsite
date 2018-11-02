@@ -1,0 +1,90 @@
+ /*  ==================================  */
+ /*  商 品 分 類    大 目 錄   背 景 特 效  */
+
+ .blur {
+    background: url('../images/sunset.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+    filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -webkit-filter: blur(20px);
+
+    position: absolute;
+    height: 700px;
+    width: auto;
+    top: -50px;
+    left: -50px;
+    right: -50px;
+    bottom: -50px;
+}
+
+.widget {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    margin: auto;
+}
+
+
+.menu-text {
+    margin: 0 auto !important;
+    text-align: left !important;
+}
+
+.megamenu {
+    /* 如果不要背景模糊，可以自行設定底色 */
+    /* background-color: #ffffff; */
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-top: 40px;
+    padding-bottom: 350px;
+    display: none;
+    margin-top: 0px;
+}
+
+.mega-dropdown:hover>.megamenu {
+    display: block;
+
+}
+
+.header-color {
+    color: aliceblue !important;
+}
+
+.dividing-line {
+    border: 0;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 6px
+}
+
+.ui.link.list .item,
+.ui.link.list .item a:not(.ui),
+.ui.link.list a.item {
+    color: rgba(255, 255, 255, 0.5)!important;
+    -webkit-transition: .1s color ease;
+    transition: .1s color ease
+}
+
+.ui.link.list.list .item a:not(.ui):hover,
+.ui.link.list.list a.item:hover {
+    color: rgba(255, 255, 255, 0.8)!important
+}
+
+.browse-item:hover
+{
+  color:rgb(26, 23, 13)
+}
+
+
+
