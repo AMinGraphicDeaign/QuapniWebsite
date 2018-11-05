@@ -57,6 +57,30 @@
 
 }
 
+.header-navigation {
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 60px;
+    max-width: auto;
+    margin: auto;
+}
+
+.header-logo {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .header-color {
     color: aliceblue !important;
 }
@@ -78,7 +102,7 @@
 
 .ui.link.list.list .item a:not(.ui):hover,
 .ui.link.list.list a.item:hover {
-    color: rgba(255, 255, 255, 0.8)!important
+    color: rgba(255, 255, 255, 0.8)!important;
 }
 
 .browse-item:hover

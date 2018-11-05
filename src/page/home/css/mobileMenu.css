@@ -1,0 +1,65 @@
+    .mobile-item:hover
+    {
+      color:rgb(178, 130, 71)
+    }
+    
+
+    .header-navigation {
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .header-content {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -ms-flex-align: center;
+        align-items: center;
+        min-height: 60px;
+        max-width: auto;
+        margin: auto;
+    }
+    
+    .header-logo {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .mobile-nav {
+        border: none;
+        border-width: none;
+        list-style: none;
+        margin: 15;
+        padding: 0;
+        text-align: center;
+        /*  強制不換行 設定  */
+        white-space:nowrap;
+    }
+    
+    .mobile-nav li {
+        display: inline;
+    }
+    
+    .mobile-nav a {
+        display: inline-block;
+        padding: 0px;
+        margin-right: 30px;
+        margin-left: 30px;
+        color: rgb(0, 0, 0);
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    
+    .mobile-right a {
+        display: inline-block;
+        padding: 0px;
+        margin-right: 15px;
+        margin-left: 15px;
+        color: rgb(2, 2, 2);
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+     

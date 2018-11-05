@@ -1,10 +1,11 @@
 import React from 'react'
 import '../css/hiddenMenu.css'
 import quapni_logo from '../images/quapni_logo.svg'
-
+import { Responsive } from 'semantic-ui-react'
 
 export const HiddenMenu = () => (
-    <div className="ui fixed hidden menu">
+    <Responsive minWidth={900}>
+     <div className="ui fixed hidden menu">
         <div className="header-content">
             <div className="header-logo">
                 <img alt="quapni_logo" src={quapni_logo} style={{ width: 150 }} />
@@ -68,4 +69,5 @@ export const HiddenMenu = () => (
             </div>
         </div>
     </div>
+    </Responsive>
 )

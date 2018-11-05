@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { HeroImageTitle } from './heroImageTitle'
+import { MobileMenu } from './mobileMenu'
 import { HiddenMenu } from './hiddenMenu'
 import { MegaMenu } from './megaMenu'
 import { Slideshow } from './slideshow'
@@ -18,7 +19,7 @@ export const Home = compose(
         showFixedMenu: () => () => ({ fixed: true })
     })
 )(
-    ({ children, fixed, hideFixedMenu, showFixedMenu }) => {
+    ({ fixed, hideFixedMenu, showFixedMenu }) => {
         console.log(fixed)
         return (
             /*Page Contents*/
@@ -34,6 +35,7 @@ export const Home = compose(
                         className="masthead segment"
                         vertical
                     >
+                        <MobileMenu />
                         <MegaMenu />
                         <HeroImageTitle />
                     </Segment>
