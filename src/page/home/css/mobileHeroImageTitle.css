@@ -1,0 +1,8 @@
+.mobile-masthead h1.ui.header {
+    margin-top: 0em;
+    padding-top: 2.5em;
+    margin-bottom: 0em;
+    font-size: 4.5em;
+    font-weight: normal;
+    white-space:nowrap;
+}
