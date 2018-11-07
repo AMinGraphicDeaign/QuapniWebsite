@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { HeroImageTitle } from './heroImageTitle'
-import { MobileMenu } from './mobileMenu'
+import { MobilePageLayout } from './mobilePageLayout'
 import { HiddenMenu } from './hiddenMenu'
 import { MegaMenu } from './megaMenu'
 import { Slideshow } from './slideshow'
@@ -10,7 +10,7 @@ import { Footer } from './footer'
 import { CardDesign } from './cardDesign'
 
 import { compose, withStateHandlers } from 'recompose'
-import { Segment, Visibility } from 'semantic-ui-react'
+import { Segment, Visibility,Responsive } from 'semantic-ui-react'
 import '../css/heroImage.css'
 
 export const Home = compose(
@@ -29,31 +29,35 @@ export const Home = compose(
                     onBottomPassed={showFixedMenu}
                     onBottomPassedReverse={hideFixedMenu}
                 >
+                   <Responsive minWidth={900}>
                     <Segment
                         textAlign='center'
                         // Hero Image 圖 片 放 置 css ↓↓↓
                         className="masthead segment"
                         vertical
                     >
-                        <MobileMenu />
                         <MegaMenu />
                         <HeroImageTitle />
                     </Segment>
+                    </Responsive>
                     {fixed ? <HiddenMenu /> : null}
                 </Visibility>
 
-                {/*           幻 燈 片            */}
-                <Slideshow />
+                <MobilePageLayout/>
 
-                {/*          滾 動 視 差          */}
-                <Parallax />
+                <Responsive minWidth={900}>
+                    {/*           幻 燈 片            */}
+                    <Slideshow />
 
-                {/*        卡 片 式 設 計         */}
-                <CardDesign />
+                    {/*          滾 動 視 差          */}
+                    <Parallax />
 
-                {/*        底 層 導 覽 列         */}
-                <Footer />
+                    {/*        卡 片 式 設 計         */}
+                    <CardDesign />
 
+                    {/*        底 層 導 覽 列         */}
+                    <Footer />
+                </Responsive> 
             </div>
         )
     }
