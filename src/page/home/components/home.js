@@ -1,17 +1,15 @@
 import React from 'react'
 
-import { HeroImageTitle } from './heroImageTitle'
 import { MobilePageLayout } from './mobilePageLayout'
 import { HiddenMenu } from './hiddenMenu'
-import { MegaMenu } from './megaMenu'
 import { Slideshow } from './slideshow'
 import { Parallax } from './parallax'
 import { Footer } from './footer'
 import { CardDesign } from './cardDesign'
+import { MegaMenuSidebar } from './megaMenuSidebar'
 
 import { compose, withStateHandlers } from 'recompose'
-import { Segment, Visibility,Responsive } from 'semantic-ui-react'
-import '../css/heroImage.css'
+import { Segment, Visibility, Responsive } from 'semantic-ui-react'
 
 export const Home = compose(
     withStateHandlers({ fixed: null }, {
@@ -29,21 +27,20 @@ export const Home = compose(
                     onBottomPassed={showFixedMenu}
                     onBottomPassedReverse={hideFixedMenu}
                 >
-                   <Responsive minWidth={900}>
-                    <Segment
-                        textAlign='center'
-                        // Hero Image 圖 片 放 置 css ↓↓↓
-                        className="masthead segment"
-                        vertical
-                    >
-                        <MegaMenu />
-                        <HeroImageTitle />
-                    </Segment>
+                    <Responsive minWidth={900}>
+                        <Segment
+                            textAlign='center'
+                            vertical
+                            style={{ padding: '0em 0em' }}
+                        >
+                           {/* 購 物 車   側 邊 欄 */}
+                            <MegaMenuSidebar />
+                        </Segment>
                     </Responsive>
                     {fixed ? <HiddenMenu /> : null}
                 </Visibility>
 
-                <MobilePageLayout/>
+                <MobilePageLayout />
 
                 <Responsive minWidth={900}>
                     {/*           幻 燈 片            */}
@@ -57,7 +54,7 @@ export const Home = compose(
 
                     {/*        底 層 導 覽 列         */}
                     <Footer />
-                </Responsive> 
+                </Responsive>
             </div>
         )
     }

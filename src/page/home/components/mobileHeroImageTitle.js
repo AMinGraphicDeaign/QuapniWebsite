@@ -1,9 +1,9 @@
 import React from 'react'
-import '../css/mobileHeroImageTitle.css'
+import '../css/heroImageTitle.css'
 
 
 export const MobileHeroImageTitle = () => (
-	<div>
+	<div className="mobile-masthead">
 		<div className="ui container">
 			<div className="ui text container">
 				<h1 className="ui inverted header">
