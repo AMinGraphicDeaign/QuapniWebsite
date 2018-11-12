@@ -48,13 +48,11 @@ class MobileContainer extends Component {
                         <Segment
                             textAlign='center'
                             // Hero Image 圖 片 放 置 css ↓↓↓
-                            className="hero-image-position"
+                            className="hero-image-mobile"
                             vertical
-                        >
-                            <div className="mobile-masthead">
-                                <MobileHeroImageTitle />
-                            </div>
-
+                        >    
+                            <MobileHeroImageTitle />
+                            
                             <div className="ui fixed menu">
                                 <div className="header-content">
                                     {/* 漢 堡 圖 標 */}

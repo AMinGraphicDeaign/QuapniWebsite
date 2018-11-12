@@ -3,7 +3,7 @@ import '../css/heroImageTitle.css'
 
 
 export const HeroImageTitle = () => (
-	<div>
+	<div className="desktop-masthead">
 		<div className="ui container">
 			<div className="ui text container">
 				<h1 className="ui inverted header">

@@ -23,6 +23,7 @@ export const Footer = () => (
                             service@quapni.com.tw
                             <br />
                             <br />
+                            <br />
                             <font size={5}> <b> 04-25605778 </b> </font>
                             <br />
                             服務時間 09:00-17:00

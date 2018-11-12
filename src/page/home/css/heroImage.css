@@ -1,4 +1,4 @@
-.masthead.segment {
+  .hero-image-desktop{
     background-image: url("../images/sunset.jpg") !important;
     height: 100% !important;
     background-position: center !important;
@@ -9,7 +9,7 @@
     padding: 0em 0em !important;
   }
 
-  .hero-image-position {
+  .hero-image-mobile {
     background-image: url("../images/sunset.jpg")!important;
     height: 100% !important;
     background-position: center !important;

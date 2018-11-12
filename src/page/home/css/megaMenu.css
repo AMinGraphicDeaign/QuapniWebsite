@@ -110,5 +110,6 @@
   color:rgb(26, 23, 13)
 }
 
-
-
+.browse-item{
+  text-shadow: rgba(17, 16, 16, 0.3) 0.1em 0.1em 0.1em
+}
