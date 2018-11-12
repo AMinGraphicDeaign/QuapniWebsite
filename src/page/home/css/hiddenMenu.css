@@ -156,3 +156,9 @@
         right: -50px;
         bottom: -50px;
       }
+      
+
+      /* 將內容置中（ hiddenMenu購物車側邊欄 ） */
+      .sidebar-container{
+        text-align: center;
+       }
