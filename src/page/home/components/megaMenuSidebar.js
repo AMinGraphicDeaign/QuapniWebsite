@@ -56,7 +56,7 @@ class SidebarContainer extends Component {
                                     <Responsive minWidth={900}>
                                         <ul className="nav">
                                             <li>
-                                                <a className="browse-item" href="">品牌故事</a>
+                                                <a className="browse-item" href="../../brand/component/brandPage.js">品牌故事</a>
                                             </li>
                                             <li>
                                                 <a className="browse-item" href="">商品總覽</a>
