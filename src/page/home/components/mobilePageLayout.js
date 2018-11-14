@@ -91,8 +91,7 @@ class MobileContainer extends Component {
                         {/*        卡 片 式 設 計         */}
                         <CardDesign />
 
-                        {/*        底 層 導 覽 列         */}
-                        <Footer /> 
+
                     </Sidebar.Pusher>
                 </Sidebar.Pushable>
             </Responsive>
