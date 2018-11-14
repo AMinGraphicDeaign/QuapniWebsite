@@ -1,11 +1,10 @@
 import React from 'react'
-import { Footer } from '../../home/components/footer'
-import { HiddenMenu } from '../../home/components/hiddenMenu'
+
 import quapni_logo from '../../home/images/quapni_logo.svg'
 import cal_85th_gd_2 from '../../home/images/cal_85th_gd_2.jpg'
-import '../css/brandPage.css'
 import { Container } from 'semantic-ui-react'
 
+import '../css/brandPage.css'
 
 export const Brand = () => (
   <div>
@@ -22,8 +21,6 @@ export const Brand = () => (
     <div className="box">
       <img src={cal_85th_gd_2} />
     </div>
-    <HiddenMenu />
 
-    <Footer />
   </div>
 )

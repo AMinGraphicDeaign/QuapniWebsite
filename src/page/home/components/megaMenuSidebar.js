@@ -47,7 +47,7 @@ class SidebarContainer extends Component {
                             <div className="header-content">
 
                                 <Responsive minWidth={900}>
-                                    <div className="header-logo">
+                                    <div className="header-white-logo">
                                         <img alt="quapni_logo" src={white_quapni_logo} style={{ width: 150 }} />
                                     </div>
                                 </Responsive>
