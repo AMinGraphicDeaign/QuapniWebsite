@@ -30,8 +30,8 @@ export class MobileMenu extends Component {
             <Responsive maxWidth={900}>
                 <Sidebar.Pushable as={Segment}>
                     <Sidebar as={Menu} animation='cover' inverted vertical visible={sidebarOpened}>
-                        <Menu.Item as='a'><h4>首 頁</h4></Menu.Item>
-                        <Menu.Item as='a'><h4>品 牌 故 事</h4></Menu.Item>
+                        <Menu.Item as='a' href="/"><h4>首 頁</h4></Menu.Item>
+                        <Menu.Item as='a' href="/brand"><h4>品 牌 故 事</h4></Menu.Item>
                         <Menu.Item as='a'><h4>商 品 總 覽</h4></Menu.Item>
                         <Menu.Item><h4>商 品 分 類</h4><AccordionExampleStandard></AccordionExampleStandard></Menu.Item>
                     </Sidebar>

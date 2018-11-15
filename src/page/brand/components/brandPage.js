@@ -8,6 +8,7 @@ import '../css/brandPage.css'
 
 export const Brand = () => (
   <div>
+    <title>品牌故事 - Quapni</title>
     <Container>
       <img className="logo-style" alt="quapni_logo" src={quapni_logo} />
       <h1 className="slogan-style">突破 創新 舒適 精緻簡約</h1>

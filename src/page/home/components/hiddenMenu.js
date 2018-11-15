@@ -14,7 +14,7 @@ import '../css/hiddenMenu.css'
 
 class SidebarContainer extends Component {
     state = {}
-    
+
     handlePusherClick = () => {
         const { sidebarOpened } = this.state
         if (sidebarOpened) this.setState({ sidebarOpened: false })
@@ -22,19 +22,19 @@ class SidebarContainer extends Component {
 
     handleToggle = () => this.setState({ sidebarOpened: !this.state.sidebarOpened })
     render() {
-    
+
         const { sidebarOpened } = this.state
 
         return (
-             <div>
+            <div>
                 <Sidebar as={Menu} animation='overlay' direction='right' inverted vertical visible={sidebarOpened}>
-                   <Icon link name='close' size='large' style={{ color: 'white',margin: 10 }} onClick={this.handlePusherClick}/>
-                   <div className="sidebar-container">
-                    <img alt="quapni_logo" src={white_quapni_logo} style={{ width: 100 }} />
-                    <h4 style={{ color: 'white' }} >尚 未 選 購 商 品</h4>
-                   </div>
+                    <Icon link name='close' size='large' style={{ color: 'white', margin: 10 }} onClick={this.handlePusherClick} />
+                    <div className="sidebar-container">
+                        <img alt="quapni_logo" src={white_quapni_logo} style={{ width: 100 }} />
+                        <h4 style={{ color: 'white' }} >尚 未 選 購 商 品</h4>
+                    </div>
                 </Sidebar>
-               
+
                 <Sidebar.Pusher
                     dimmed={sidebarOpened}
                     onClick={this.handlePusherClick}
@@ -43,11 +43,13 @@ class SidebarContainer extends Component {
                         <div className="ui fixed hidden menu">
                             <div className="header-content">
                                 <div className="header-original-logo">
-                                    <img alt="quapni_logo" src={quapni_logo} style={{ width: 150 }} />
+                                    <a href="/">
+                                        <img alt="quapni_logo" src={quapni_logo} style={{ width: 150 }} />
+                                    </a>
                                 </div>
                                 <div className="header-navigation hidden-menu-text">
                                     <li>
-                                        <a className="item">品牌故事</a>
+                                        <a className="item" href="/brand">品牌故事</a>
                                     </li>
                                     <li>
                                         <a className="item">商品總覽</a>
@@ -97,7 +99,7 @@ class SidebarContainer extends Component {
                                         </li>
                                         <li>
                                             <a style={{ color: 'black' }}>
-                                                <i className="shopping cart icon" onClick={this.handleToggle}/>
+                                                <i className="shopping cart icon" onClick={this.handleToggle} />
                                             </a>
                                         </li>
                                     </ul>
@@ -106,8 +108,8 @@ class SidebarContainer extends Component {
                         </div>
                     </Responsive>
 
-                 </Sidebar.Pusher>
-             </div>
+                </Sidebar.Pusher>
+            </div>
 
         )
     }

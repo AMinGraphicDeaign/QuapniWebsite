@@ -39,7 +39,7 @@ export const Home = compose(
                     </Responsive>
                     {fixed ? <HiddenMenu /> : null}
                 </Visibility>
-
+                <title>Quapni</title>
                 <MobilePageLayout />
                 
                 <Responsive minWidth={900}>
