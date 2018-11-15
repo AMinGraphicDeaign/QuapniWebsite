@@ -52,14 +52,14 @@ export const Footer = () => (
                 <div className="three wide column">
                     <h4>相關連結</h4>
                     <div className="ui inverted link list">
-                        <a href="#">
-                            <img className="icon-size" alt="" src={instagramIcon} />
+                        <a href="https://www.instagram.com/quapni/" target="_blank">
+                            <img className="icon-size" alt="instagramIcon" src={instagramIcon} />
                         </a>
-                        <a href="#">
-                            <img className="icon-size" alt="" src={facebookIcon} />
+                        <a href="https://www.facebook.com/quapni/" target="_blank">
+                            <img className="icon-size" alt="facebookIcon" src={facebookIcon} />
                         </a>
-                        <a href="#">
-                            <img className="icon-size" alt="" src={yotubeIcon} />
+                        <a href="https://www.youtube.com/user/quapni" target="_blank">
+                            <img className="icon-size" alt="yotubeIcon" src={yotubeIcon} />
                         </a>
                     </div>
                 </div>

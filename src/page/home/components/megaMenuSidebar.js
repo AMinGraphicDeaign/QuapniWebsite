@@ -27,7 +27,7 @@ class SidebarContainer extends Component {
         const { sidebarOpened } = this.state
 
         return (
-           
+              
                 <Sidebar.Pushable> 
                     <Sidebar as={Menu} animation='overlay' direction='right' inverted vertical visible={sidebarOpened}>
                         <img alt="quapni_logo" src={white_quapni_logo} style={{ width: 150,marginTop:30 }} />
@@ -47,7 +47,7 @@ class SidebarContainer extends Component {
                             <div className="header-content">
 
                                 <Responsive minWidth={900}>
-                                    <div className="header-logo">
+                                    <div className="header-white-logo">
                                         <img alt="quapni_logo" src={white_quapni_logo} style={{ width: 150 }} />
                                     </div>
                                 </Responsive>
@@ -56,7 +56,7 @@ class SidebarContainer extends Component {
                                     <Responsive minWidth={900}>
                                         <ul className="nav">
                                             <li>
-                                                <a className="browse-item" href="">品牌故事</a>
+                                                <a className="browse-item" href="/brand">品牌故事</a>
                                             </li>
                                             <li>
                                                 <a className="browse-item" href="">商品總覽</a>

@@ -4,12 +4,12 @@ import { MobilePageLayout } from './mobilePageLayout'
 import { HiddenMenu } from './hiddenMenu'
 import { Slideshow } from './slideshow'
 import { Parallax } from './parallax'
-import { Footer } from './footer'
+
 import { CardDesign } from './cardDesign'
 import { MegaMenuSidebar } from './megaMenuSidebar'
 
 import { compose, withStateHandlers } from 'recompose'
-import { Segment, Visibility, Responsive } from 'semantic-ui-react'
+import { Segment, Visibility, Responsive} from 'semantic-ui-react'
 
 export const Home = compose(
     withStateHandlers({ fixed: null }, {
@@ -39,9 +39,9 @@ export const Home = compose(
                     </Responsive>
                     {fixed ? <HiddenMenu /> : null}
                 </Visibility>
-
+                <title>Quapni</title>
                 <MobilePageLayout />
-
+                
                 <Responsive minWidth={900}>
                     {/*           幻 燈 片            */}
                     <Slideshow />
@@ -51,13 +51,10 @@ export const Home = compose(
 
                     {/*        卡 片 式 設 計         */}
                     <CardDesign />
-
-                    {/*        底 層 導 覽 列         */}
-                    <Footer />
                 </Responsive>
             </div>
+           
         )
     }
 )
-
 

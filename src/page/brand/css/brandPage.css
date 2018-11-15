@@ -1,0 +1,82 @@
+
+.logo-style{
+ width: 450px;
+ margin-right: 100px;
+ margin-top: 140px;
+}
+
+.slogan-style{
+ font-size: 36px;
+ margin-bottom: 50px;
+ letter-spacing: 6px;
+ color: #3E3E3E;
+}
+
+
+.Paragraph-style{
+ font-size: 1.4em;
+ text-shadow: rgba(255, 255, 255) 0.1em 0.1em 0.2em;
+ line-height: 2.5em;
+ letter-spacing: 3px; 
+}
+
+.box{
+ height: 80vmin;
+ margin-top: -300px;
+}
+
+.box img{
+ width: 70vw;
+ height: auto;
+ margin-left: 30vw;
+ position: absolute;
+ /* clip: rect(0px 1500px 600px 0px); */
+ z-index: -1;
+}
+
+
+
+
+
+/* ================ */
+ /* 行 動 裝 置  CSS */
+
+@media screen and (max-width: 900px){
+  .logo-style{
+  width: 60vw;
+  margin-left: 1rem; 
+  margin-top: 140px;
+  }
+
+  .slogan-style{
+  font-size: 5vw;
+  margin-left: 1rem;
+  margin-bottom: 50px;
+  letter-spacing: 4px;
+  color: #3E3E3E;
+  }
+
+
+  .Paragraph-style{
+  margin-left: 1rem;
+  font-size: 3vw;
+  text-shadow: rgba(255, 255, 255) 0.1em 0.1em 0.2em;
+  line-height: 8vw;
+  letter-spacing: 2px; 
+  }
+
+  .box{
+  height: 120vw;
+  
+  }
+
+  .box img{
+  width: 120%;
+  height: auto;
+  position: absolute;
+  margin-top:35vh ;
+  margin-left: 10vw; 
+  z-index: -1;
+  
+  }  
+}

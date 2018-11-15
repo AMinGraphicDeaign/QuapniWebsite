@@ -22,6 +22,8 @@ class SidebarContainer extends Component {
 
     handleToggle = () => this.setState({ sidebarOpened: !this.state.sidebarOpened })
     render() {
+        {/*  控制 HiddenMenu 首頁不顯示  */ }
+        if (window.location.pathname === '/') return null;
 
         const { sidebarOpened } = this.state
 
@@ -49,7 +51,7 @@ class SidebarContainer extends Component {
                                 </div>
                                 <div className="header-navigation hidden-menu-text">
                                     <li>
-                                        <a className="item" href="/brand">品牌故事</a>
+                                        <a href="#" className="item">品牌故事</a>
                                     </li>
                                     <li>
                                         <a className="item">商品總覽</a>
@@ -116,6 +118,6 @@ class SidebarContainer extends Component {
 }
 
 
-export const HiddenMenu = () => (
+export const AllPageMenu = () => (
     <SidebarContainer></SidebarContainer>
 )
