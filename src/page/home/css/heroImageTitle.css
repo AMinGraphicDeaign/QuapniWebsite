@@ -1,16 +1,27 @@
 .desktop-masthead h1.ui.header {
-    margin-top: 2em;
-    margin-bottom: 0em;
-    font-size: 5.5em;
-    font-weight: normal;
-    white-space:nowrap;
+    margin-top: 18vmin;
+    margin-bottom: 0;
+    font-size: 15vmin;
+    text-align: center;
 }
 
-.mobile-masthead h1.ui.header {
-    margin-top: 0em;
-    padding-top: 2.5em;
-    margin-bottom: 0em;
-    font-size: 4.5em;
-    font-weight: normal;
-    white-space:nowrap;
+
+@media only screen and (max-width: 768px){
+    .mobile-masthead h1.ui.header {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 65vmin;
+        font-size: 18vmin;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .mobile-masthead h1.ui.header {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 40vmin;
+        font-size: 15vmin;
+        text-align: center;
+    }
 }
