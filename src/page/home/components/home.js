@@ -9,7 +9,7 @@ import { CardDesign } from './cardDesign'
 import { MegaMenuSidebar } from './megaMenuSidebar'
 
 import { compose, withStateHandlers } from 'recompose'
-import { Segment, Visibility, Responsive} from 'semantic-ui-react'
+import { Segment, Visibility, Responsive, Sidebar} from 'semantic-ui-react'
 
 export const Home = compose(
     withStateHandlers({ fixed: null }, {
@@ -29,7 +29,7 @@ export const Home = compose(
                 >
                     <Responsive minWidth={900}>
                         <Segment
-                            textAlign='center'
+                            // textAlign='center'
                             vertical
                             style={{ padding: '0em 0em' }}
                         >
@@ -52,6 +52,7 @@ export const Home = compose(
                     {/*        卡 片 式 設 計         */}
                     <CardDesign />
                 </Responsive>
+                
             </div>
            
         )

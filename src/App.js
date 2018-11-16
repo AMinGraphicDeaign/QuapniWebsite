@@ -22,7 +22,7 @@ const App = () => {
 
         {/*  電 腦 版 網 頁  */}
         <Responsive minWidth={900}>
-          <AllPageMenu />
+          < AllPageMenu />
           <PageRouter />
           <Footer />
         </Responsive>

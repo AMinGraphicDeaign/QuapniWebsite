@@ -1,0 +1,115 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+
+.app-page-style{
+    margin-top: 200px;
+    margin-bottom: 500px;
+}
+
+.app-image-size{
+    width: 40vmin;
+    float: left;
+    margin-left: 9vw;
+}
+
+.app-intro{
+   margin-top: 4vmin;
+   margin-left: 50px ; 
+   float: left;
+}
+
+.app-intro p{
+   letter-spacing: 1; 
+   font-size: 1.3em;
+   line-height: 35px;
+}
+
+.app-google-apple{
+ float: left;
+ width: 20vmin;
+ margin-right: 1vmin ;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .clearfix:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+      }
+    
+    .app-page-style{
+        margin-top: 200px;
+        margin-bottom: 350px;
+    }
+    
+    .app-image-size{
+        width: 40vmin;
+        float: left;
+        margin-left: 3vw;
+    }
+    
+    .app-intro{
+       margin-top: 4vmin;
+       margin-left: 50px ; 
+       float: left;
+    }
+    
+    .app-intro p{
+       letter-spacing: 1; 
+       font-size: 1.3em;
+       line-height: 35px;
+    }
+    
+    .app-google-apple{
+     float: left;
+     width: 20vmin;
+     margin-right: 1vmin ;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .app-title{
+        /* style={{textAlign:'center',marginBottom:'10vmin',fontSize:'7vmin'}}    */
+     text-align: center;
+     margin-bottom: 15vmin;
+     margin-top: 35vmin;
+     font-size: 7vmin;   
+    }
+
+    .app-page-style{
+     margin-top: 100px;
+     margin-bottom: 150px;
+    }
+    
+    .app-image-size{
+     width: 60vmin;
+     margin-left: 16vmin;
+    }
+    
+    .app-intro{
+     text-align:left;
+     margin-left: 10vmin;
+    }
+    
+    .app-intro p{
+     letter-spacing: 1; 
+     font-size: 1em;
+     line-height: 30px;
+    }
+    
+    .app-google-apple{
+     float: left;
+     width: 35vmin;
+     margin-right: 2vmin ;
+    }  
+
+}

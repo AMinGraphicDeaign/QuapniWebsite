@@ -93,12 +93,12 @@ class SidebarContainer extends Component {
                                 <div style={{ marginRight: 30 }}>
                                     <ul className="nav right">
                                         <li>
-                                            <a style={{ color: 'black' }} href="#">
+                                            <a href="#" style={{ color: 'black' }} >
                                                 登入&nbsp;｜&nbsp;註冊
 							                </a>
                                         </li>
                                         <li>
-                                            <a style={{ color: 'black' }}>
+                                            <a href="#" style={{ color: 'black' }}>
                                                 <i className="shopping cart icon" onClick={this.handleToggle} />
                                             </a>
                                         </li>

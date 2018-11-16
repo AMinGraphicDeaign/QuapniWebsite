@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Responsive } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 import quapni_logo from '../../home/images/quapni_logo.svg'
 import cal_85th_gd_2 from '../../home/images/cal_85th_gd_2.jpg'

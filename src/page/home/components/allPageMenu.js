@@ -12,7 +12,7 @@ import white_quapni_logo from '../images/quapni_logo_white.svg'
 import '../css/hiddenMenu.css'
 
 
-class SidebarContainer extends Component {
+export class AllPageMenu extends Component {
     state = {}
 
     handlePusherClick = () => {
@@ -29,6 +29,7 @@ class SidebarContainer extends Component {
 
         return (
             <div>
+
                 <Sidebar as={Menu} animation='overlay' direction='right' inverted vertical visible={sidebarOpened}>
                     <Icon link name='close' size='large' style={{ color: 'white', margin: 10 }} onClick={this.handlePusherClick} />
                     <div className="sidebar-container">
@@ -36,7 +37,7 @@ class SidebarContainer extends Component {
                         <h4 style={{ color: 'white' }} >尚 未 選 購 商 品</h4>
                     </div>
                 </Sidebar>
-
+                
                 <Sidebar.Pusher
                     dimmed={sidebarOpened}
                     onClick={this.handlePusherClick}
@@ -51,7 +52,7 @@ class SidebarContainer extends Component {
                                 </div>
                                 <div className="header-navigation hidden-menu-text">
                                     <li>
-                                        <a href="#" className="item">品牌故事</a>
+                                        <a href="/brand" className="item">品牌故事</a>
                                     </li>
                                     <li>
                                         <a className="item">商品總覽</a>
@@ -95,12 +96,12 @@ class SidebarContainer extends Component {
                                 <div style={{ marginRight: 30 }}>
                                     <ul className="nav right">
                                         <li>
-                                            <a style={{ color: 'black' }} href="#">
+                                            <a href="#" style={{ color: 'black' }} >
                                                 登入&nbsp;｜&nbsp;註冊
 							                </a>
                                         </li>
                                         <li>
-                                            <a style={{ color: 'black' }}>
+                                            <a href="#" style={{ color: 'black' }} >
                                                 <i className="shopping cart icon" onClick={this.handleToggle} />
                                             </a>
                                         </li>
@@ -109,15 +110,12 @@ class SidebarContainer extends Component {
                             </div>
                         </div>
                     </Responsive>
-
+                    
                 </Sidebar.Pusher>
+              
+                
             </div>
 
         )
     }
 }
-
-
-export const AllPageMenu = () => (
-    <SidebarContainer></SidebarContainer>
-)

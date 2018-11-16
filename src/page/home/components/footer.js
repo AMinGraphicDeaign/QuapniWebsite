@@ -66,7 +66,7 @@ export const Footer = () => (
                 <div className="one wide column">
                     <h4>APP</h4>
                     <div className="ui inverted link list">
-                        <a href="#">
+                        <a href="/appIntro">
                             <img className="icon-size" alt="" src={appIcon} />
                         </a>
                     </div>
