@@ -9,7 +9,7 @@ import { CardDesign } from './cardDesign'
 import { MegaMenuSidebar } from './megaMenuSidebar'
 
 import { compose, withStateHandlers } from 'recompose'
-import { Segment, Visibility, Responsive, Sidebar} from 'semantic-ui-react'
+import { Segment, Visibility, Responsive } from 'semantic-ui-react'
 
 export const Home = compose(
     withStateHandlers({ fixed: null }, {
