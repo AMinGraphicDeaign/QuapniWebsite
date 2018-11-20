@@ -14,7 +14,7 @@ import '../css/heroImage.css'
 
 export const MobilePageLayout  = () => (  
    
-            <Responsive maxWidth={900}>
+            <Responsive maxWidth={919}>
                 <Segment
                     textAlign='center'
                     // Hero Image 圖 片 放 置 css ↓↓↓

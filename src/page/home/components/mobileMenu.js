@@ -27,7 +27,7 @@ export class MobileMenu extends Component {
         const { sidebarOpened } = this.state
 
         return (
-            <Responsive maxWidth={900}>
+            <Responsive maxWidth={919}>
                 <Sidebar.Pushable as={Segment}>
                     <Sidebar as={Menu} animation='cover' inverted vertical visible={sidebarOpened}>
                         <Menu.Item as='a' href="/"><h4>首 頁</h4></Menu.Item>

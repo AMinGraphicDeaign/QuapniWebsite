@@ -15,7 +15,7 @@ import '../css/megaMenu.css'
 import '../css/heroImage.css'
 
 
-class SidebarContainer extends Component {
+export class MegaMenuSidebar extends Component {
     state = {}
     handlePusherClick = () => {
         const { sidebarOpened } = this.state
@@ -56,7 +56,7 @@ class SidebarContainer extends Component {
                         {/* 內 容 放 置 區 */}
                         <div className="header-content">
 
-                            <Responsive minWidth={900}>
+                            <Responsive minWidth={920}>
                                 <div className="header-white-logo">
                                     <a href="/">
                                         <img alt="quapni_logo" src={white_quapni_logo} style={{ width: 150 }} />
@@ -65,7 +65,7 @@ class SidebarContainer extends Component {
                             </Responsive>
 
                             <div className="header-navigation">
-                                <Responsive minWidth={900}>
+                                <Responsive minWidth={920}>
                                     <ul className="nav">
                                         <li>
                                             <a className="browse-item" href="/brand">品牌故事</a>
@@ -112,7 +112,7 @@ class SidebarContainer extends Component {
                                 </Responsive>
                             </div>
 
-                            <Responsive minWidth={900}>
+                            <Responsive minWidth={920}>
                                 <div style={{ marginRight: 30 }}>
                                     <ul className="nav right">
                                         <li>
@@ -122,7 +122,7 @@ class SidebarContainer extends Component {
                                 </div>
                             </Responsive>
 
-                            <Responsive minWidth={900}>
+                            <Responsive minWidth={920}>
                                 <div style={{ marginRight: 30 }}>
                                     <ul className="nav right">
                                         <li>
@@ -146,8 +146,4 @@ class SidebarContainer extends Component {
     }
 }
 
-
-export const MegaMenuSidebar = () => (
-    <SidebarContainer></SidebarContainer>
-)
 

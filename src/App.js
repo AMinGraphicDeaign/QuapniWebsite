@@ -21,7 +21,7 @@ const App = () => {
         </MobileMenu>
 
         {/*  電 腦 版 網 頁  */}
-        <Responsive minWidth={900}>
+        <Responsive minWidth={920}>
           < AllPageMenu />
           <PageRouter />
           <Footer />

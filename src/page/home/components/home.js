@@ -28,7 +28,7 @@ export const Home = compose(
                     onBottomPassed={showFixedMenu}
                     onBottomPassedReverse={hideFixedMenu}
                 >
-                    <Responsive minWidth={900}>
+                    <Responsive minWidth={920}>
                         <Segment
                             vertical
                             style={{ padding: '0em 0em' }}
@@ -37,12 +37,14 @@ export const Home = compose(
                             <MegaMenuSidebar />
                         </Segment>
                     </Responsive>
+
                     {fixed ? <HiddenMenu /> : null}
                 </Visibility>
+
                 <title>Quapni</title>
                 <MobilePageLayout />
                 
-                <Responsive minWidth={900}>
+                <Responsive minWidth={920}>
                     {/*           幻 燈 片            */}
                     <Slideshow />
 
