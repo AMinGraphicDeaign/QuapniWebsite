@@ -30,7 +30,7 @@ class SidebarContainer extends Component {
                 <Sidebar as={Menu} animation='overlay' direction='right' inverted vertical visible={sidebarOpened}>
                     <Icon link name='close' size='large' style={{ color: 'white', margin: 10 }} onClick={this.handlePusherClick} />
                     <div className="sidebar-container">
-                        <img alt="quapni_logo" src={white_quapni_logo} style={{ width: 100 }} />
+                        <img alt="quapni_logo" src={white_quapni_logo} style={{ width: 100 }} /> 
                         <h4 style={{ color: 'white' }} >尚 未 選 購 商 品</h4>
                     </div>
                 </Sidebar>
@@ -98,7 +98,7 @@ class SidebarContainer extends Component {
 							                </a>
                                         </li>
                                         <li>
-                                            <a href="#" style={{ color: 'black' }}>
+                                            <a className="mouse-pointer" style={{ color: 'black' }}  >
                                                 <i className="shopping cart icon" onClick={this.handleToggle} />
                                             </a>
                                         </li>

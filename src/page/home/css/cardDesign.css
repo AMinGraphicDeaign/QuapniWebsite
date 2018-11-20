@@ -24,13 +24,13 @@ img.logo {
 .zoom-in img {
     -webkit-transform: scale(1);
     transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
 }
 
 .zoom-in:hover img {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 
@@ -42,9 +42,69 @@ img.logo {
     z-index: 1;
     color: white;
     text-shadow: #3F3F3F 0.1em 0.1em 0.2em;
+    font-size: 3.5vmin;
 }
 
 .grid-padding {
-    padding: 5pt !important;
+    padding: 2pt !important;
 }
 
+.card-margin{
+    margin: 20vmin;
+}
+
+@media only screen and (max-width: 767px){
+    
+    .grid-padding {
+        padding-top:0vmin !important;
+        padding-left:0.3vmin !important;
+        padding-right:0.3vmin !important;
+    }
+
+    .grid-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        color: white;
+        text-shadow: #3F3F3F 0.1em 0.1em 0.2em;
+        font-size: 9vmin;
+    }
+
+    .card-margin{
+        margin-top: 0.6vmin;
+        margin-left: 0vmin;
+        margin-right: 0vmin;
+        margin-bottom: 0.1vmin;
+    }
+
+    .card-container{
+        position: relative;
+        text-align: center;
+    }
+
+    .img-mask{
+        height: 50vmin;
+        width: auto;
+        overflow: hidden;
+        
+    }
+
+    .img-mask img{
+        width: 100vmin;
+        height: auto;
+        position: relative;
+        top: -5vmin;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .card-margin{
+        margin-top: 15vmin;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+        margin-bottom: 15vmin;
+     }
+     
+}

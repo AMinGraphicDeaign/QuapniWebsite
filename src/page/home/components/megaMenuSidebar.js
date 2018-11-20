@@ -58,7 +58,9 @@ class SidebarContainer extends Component {
 
                             <Responsive minWidth={900}>
                                 <div className="header-white-logo">
-                                    <img alt="quapni_logo" src={white_quapni_logo} style={{ width: 150 }} />
+                                    <a href="/">
+                                        <img alt="quapni_logo" src={white_quapni_logo} style={{ width: 150 }} />
+                                    </a>
                                 </div>
                             </Responsive>
 
@@ -124,7 +126,7 @@ class SidebarContainer extends Component {
                                 <div style={{ marginRight: 30 }}>
                                     <ul className="nav right">
                                         <li>
-                                            <a className="browse-item" href="#">
+                                            <a className="browse-item mouse-pointer">
                                                 <i className="shopping cart icon" onClick={this.handleToggle} />
                                             </a>
                                         </li>

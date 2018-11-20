@@ -101,7 +101,7 @@ export class AllPageMenu extends Component {
 							                </a>
                                         </li>
                                         <li>
-                                            <a href="#" style={{ color: 'black' }} >
+                                            <a className="mouse-pointer" style={{ color: 'black' }} >
                                                 <i className="shopping cart icon" onClick={this.handleToggle} />
                                             </a>
                                         </li>
