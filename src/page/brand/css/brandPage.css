@@ -30,7 +30,6 @@
  height: auto;
  margin-left: 30vw;
  position: absolute;
- /* clip: rect(0px 1500px 600px 0px); */
  z-index: -1;
 }
 
