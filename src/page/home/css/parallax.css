@@ -14,3 +14,13 @@
     background-image: url(../images/belowSealevel.jpg);
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .parallax [class*="bg"] {
+        height: 18vh;
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: cover;
+        z-index: -10;
+        position: relative;
+    }
+}
